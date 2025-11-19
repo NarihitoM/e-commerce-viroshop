@@ -16,7 +16,7 @@ const Mainpage: React.FC<props> = ({ children }) => {
     return (
         <>
             <header className="h-10 p-8 bg-white flex justify-between items-center shadow-[0_0_10px_0_black] z-index-10">
-                <h1 className="text-black text-xl">ViroShop</h1>
+                <h1 className="text-black text-2xl font-bold">ViroShop</h1>
                 <div className=" flex">
                     <ul className=" flex flex-row gap-5 max-md:hidden">
                         <NavLink to="/home" className={({isActive}) => isActive ? "text-purple-700 font-bold" : "text-black"}>Home</NavLink>
