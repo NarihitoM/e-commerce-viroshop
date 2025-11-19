@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+.bg
+{
+    background-image: linear-gradient(to right,purple,rgb(131, 85, 131),purple);
+    background-size: 200%;
+    animation: bg 3s linear infinite;
+}
+
+@keyframes bg
+{
+    from
+    {
+        background-position: 0 50%;
+    }
+    to
+    {
+        background-position: 200% 50%;
+    }
+}
